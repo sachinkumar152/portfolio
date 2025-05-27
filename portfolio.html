@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sachin Kumar Prasad | Portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    h4 {
+  color:blueviolet;
+}
+
+    :root {
+      --primary: #5d9cec;
+      --secondary: #4a89dc;
+      --dark: #2c3e50;
+      --light: #000000;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background: var(--light);
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: url("Screenshot_2024-07-29-00-13-15-71_965bbf4d18d205f782c6b8409c5773a4.jpg") no-repeat center/cover;
+      margin: 0 auto 1rem auto;
+      border: 5px solid white;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 2rem;
+    }
+    .projects li,
+    .skills li {
+      background: #111;
+      color: white;
+      padding: 1rem;
+      border-left: 5px solid var(--primary);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.07);
+      border-radius: 6px;
+    }
+
+    .project-entry {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+    
+    }
+  
+/* Button on top of screen */
+.overlay-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #5b36f2;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.overlay-button:hover {
+  background-color: #3f24c4;
+}
+
+
+.projects-btn {
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #062b53;       /* Blue */
+  color: white;
+  border: 2px solid white;         /* White border */
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.projects-btn:hover {
+  background-color: #66b2ff;       /* Light blue on hover */
+}
+
+
+.image-container img {
+  width: 800px;
+  height: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+  margin-top: 10px;
+
+
+    
+    .project-button {
+      padding: 10px 20px;
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .project-image {
+      width: 823px;
+      height: 773px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(255,255,255,0.1);
+    }
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .contact p {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    } 
+}
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <div class="profile-pic" data-aos="zoom-in"></div>
+    <h1>Sachin Kumar Prasad</h1>
+    <p>Shopify & WordPress Developer</p>
+  </header>
+
+  <section class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+     Hello! I'm Sachin Kumar Prasad, a passionate web developer specializing in creating responsive
+      and modern websites that blend design with functionality.
+I'm currently pursuing my MCA from Chandigarh University, having completed
+ my BCA earlier. I have 1 year of hands-on experience working at <strong> Arromton Infotack Pvt. Ltd.</strong>, where I 
+ developed a variety of websites including:
+E-commerce websites, News portals , IT solution websites, WordPress blogs ,Shopify stores
+    </p>
+  </section>
+
+  <section class="skills" data-aos="fade-right">
+    <h2>Skills</h2>
+    <ul>
+      <li><i class="fa fa-check-circle"></i> HTML & CSS</li>
+      <li><i class="fa fa-check-circle"></i> Shopify Development</li>
+      <li><i class="fa fa-check-circle"></i> WordPress Development</li>
+      <li><i class="fa fa-check-circle"></i> Responsive Design</li>
+  
+    </ul>
+  </section>
+
+  <section class="projects" data-aos="fade-left">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <div style="display: flex;">
+            <div style="width: 30%; margin-top: auto; margin-bottom: auto; padding-left: 20px;">
+                <div>
+                    <strong>E-commerce Website</strong>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a
+                      href="https://www.shreehomedecor.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="projects-btn"
+                      >Website Link</a
+                    >
+                   
+                </div>
+            </div>
+            <div style="width: 70%;">
+                <div class="project-entry" style="width: 600px; height: 500px;">
+                    <div>
+                         <h1>Shree Home Decor</h1> 
+                        <p>Shree Home Decor is a one-stop online destination for stylish home decor
+                             items. We developed a highly scalable and intuitive website for the brand, 
+                             showcasing a variety of home decor products such as wall art, LED....</p>
+                             <h4>Used Technology</h4>
+                             <p> (Shopify) </p>
+                    </div>
+                  <img
+                    src="Shree home decor.png"
+                    
+                    alt="Shree Home Decor Website Screenshot"
+                    class="project-image"
+                    style="width: 100%; object-fit: contain;"
+                      class="projects-btn"   
+                  />
+                </div>
+            </div>
+        </div>
+      </li>
+   
+
+    <li>
+        <div style="display: flex;">
+            <div style="width: 30%; margin-top: auto; margin-bottom: auto; padding-left: 20px;">
+                <div>
+                    <strong>E-commerce Website</strong>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a
+                      href="https://bloomecollective.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="projects-btn"
+                      >Website Link</a
+                    >
+                   
+                </div>
+            </div>
+            <div style="width: 70%;">
+                <div class="project-entry" style="width: 600px; height: 500px;">
+                    <div>
+                         <h1>BloomeCollective</h1> 
+                        <p>BloomeCollective is a luxury ready-to-wear fashion brand that blends minimalism and
+                             maximalism with artisanal craftsmanship. With cultural sustainability as its
+                              main focus, the brand curates global fashion through a....</p>
+                              <h4>Used Technology</h4>
+                               <p> (Shopify) </p>
+                    </div>
+                  <img
+                    src="bloomecollective.png"
+                    
+                    alt="Shree Home Decor Website Screenshot"
+                    class="project-image"
+                    style="width: 100%; object-fit: contain;"
+                      class="projects-btn"   
+                  />
+                  
+                  
+                </div>
+            </div>
+        </div>
+      </li>
+
+      <li>
+        <div style="display: flex;">
+            <div style="width: 30%; margin-top: auto; margin-bottom: auto; padding-left: 20px;">
+                <div>
+                    <strong>ITsolutions Website</strong>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a
+                      href="https://vrezolv.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="projects-btn"
+                      >Website Link</a
+                    >
+                   
+                </div>
+            </div>
+            <div style="width: 70%;">
+                <div class="project-entry" style="width: 600px; height: 500px;">
+                    <div>
+                         <h1>Vrezolv</h1> 
+                        <p>Vrezolv is a modern platform offering a range of digital services including website development and IT solutions.
+                            The site is cleanly designed with a professional layout and user-focused navigation.
+                            It showcases the company’s expertise in delivering tech-based solutions for businesses.
+                                ....</p>
+                            <h4>Used Technology</h4>
+                             <p> (WordPress) </p>
+                    </div>
+                  <img
+                    src="vrozolv.png"
+                    
+                    alt="Shree Home Decor Website Screenshot"
+                    class="project-image"
+                    style="width: 100%; object-fit: contain;"
+                      class="projects-btn"   
+                  />
+                  
+                  
+                </div>
+            </div>
+        </div>
+      </li>
+
+      <li>
+        <div style="display: flex;">
+            <div style="width: 30%; margin-top: auto; margin-bottom: auto; padding-left: 20px;">
+                <div>
+                    <strong> News portal Website</strong>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a
+                      href="https://everydayindianews.com//"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="projects-btn"
+                      >Website Link</a
+                    >
+                   
+                </div>
+            </div>
+            <div style="width: 70%;">
+                <div class="project-entry" style="width: 600px; height: 500px;">
+                    <div>
+                         <h1>Everyday India News</h1> 
+                        <p>Everyday India News is a dynamic news portal delivering the latest updates on national and international events.
+                            The website features a clean, mobile-friendly design optimized for readability and user engagement.
+                            It offers categorized news articles, trending stories, and regular content updates for its readers.
+                                ....</p>
+                            <h4>Used Technology</h4>
+                             <p> (WordPress) </p>
+                    </div>
+                  <img
+                    src="everydayindia news.png"
+                    
+                    alt="Shree Home Decor Website Screenshot"
+                    class="project-image"
+                    style="width: 100%; object-fit: contain;"
+                      class="projects-btn"   
+                  />
+                  
+                  
+                </div>
+            </div>
+        </div>
+      </li>
+
+      
+      
+      
+      
+    </ul>
+
+
+  </section>
+
+  <section class="contact" data-aos="fade-up">
+   
+   
+    <p><section class="contact">
+  <h2>Contact</h2>
+  <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin-top:20px;">
+   LinkedIn:
+<a href="https://www.linkedin.com/in/sachin-kumar-1414b52a0?
+         utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+         style="display:inline-block; padding:10px 20px; 
+         background-color:#0077b5; color:white;
+         border-radius:5px; text-decoration:none; 
+         font-weight:bold;">sachin-kumar</a></p>
+
+    <p style="margin:0; animation:fadeIn 1.2s ease-in-out; animation-fill-mode:both;">
+     GitHub:
+<a href="https://github.com/sachinkumar152" target="_blank"
+         style="display:inline-block; padding:10px 20px; 
+         background-color:#0077b5; color:white;
+         border-radius:5px; text-decoration:none; 
+         font-weight:bold;">sachinkumar152</a></p>
+    </p>
+
+    <p style="margin:0; animation:fadeIn 1.4s ease-in-out; animation-fill-mode:both;">
+   Email:
+<a href="" target="_blank"
+         style="display:inline-block; padding:10px 20px; 
+         background-color:#0077b5; color:white;
+         border-radius:5px; text-decoration:none; 
+         font-weight:bold;">mrsachin150@gmail.com</a></p>
+    </p>
+  </div>
+
+  <!-- Animation Keyframes Inline -->
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Sachin Kumar Prasad. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+
+</body>
+</html>
